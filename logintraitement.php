@@ -31,6 +31,7 @@ if ($resultat->num_rows > 0) {
 } else {
     // L'utilisateur n'existe pas ou les informations de connexion sont incorrectes
     echo "Échec de l'authentification. Veuillez vérifier vos informations de connexion.";
+    header("Location: pages/samples/login.php");
 }
 
 // Fermeture de la connexion à la base de données

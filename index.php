@@ -68,8 +68,8 @@
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
           <div class="col-md-6 pt-5 ftco-animate">
           	<div class="mt-5">
-	            <h1 class="mb-4">Consultez facilement</h1>
-	            <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
+	            <h1 class="mb-4">Reservez votre consultation en un clic</h1>
+	            <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
 	            <p><a href="#consultations" class="btn btn-primary py-3 px-4">Reserver une consultation</a></p>
             </div>
           </div>
@@ -200,7 +200,7 @@
 					<div class="col-md-9 text-center">
 						<h2>Votre santé est notre priorité</h2>
 						<p>We can manage your dream building A small river named Duden flows by their place</p>
-						<p class="mb-0"><a href="#" class="btn btn-white px-4 py-3">Search Places</a></p>
+						<p class="mb-0"><a href="#" class="btn btn-white px-4 py-3">Contactez-nous</a></p>
 					</div>
 				</div>
 			</div>
@@ -409,7 +409,7 @@
 				<div class="row d-flex align-items-center">
 					<div class="col-md-5 heading-section heading-section-white">
 						<h2 class="mb-4">Nous vous présentons quelques chiffres</h2>
-						<p class="mb-0"><a href="#" class="btn btn-secondary px-4 py-3">Make an appointment</a></p>
+						<p class="mb-0"><a href="#consultations"  class="btn btn-secondary px-4 py-3">Make an appointment</a></p>
 					</div>
 					<div class="col-md-7">
 						<div class="row pt-4">
