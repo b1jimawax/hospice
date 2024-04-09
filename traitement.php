@@ -44,7 +44,7 @@ $sql = "INSERT INTO reservations (nom_reserveur, prenom_reserveur, age_reserveur
 
 // Exécution de la requête
 if ($connexion->query($sql) === TRUE) {
-    echo "Réservation enregistrée avec succès !";
+    header("Location: index.php");
 } else {
     echo "Erreur lors de l'enregistrement de la réservation : " . $connexion->error;
 }

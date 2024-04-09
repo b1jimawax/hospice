@@ -372,7 +372,7 @@
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="../../dashboard.php">
+            <a class="nav-link" href="dashboard.php">
               <i class="mdi mdi-grid-large menu-icon"></i>
               <span class="menu-title">Tableau de bord</span>
             </a>
@@ -392,16 +392,21 @@
               </ul>
             </div>
           </li> -->
-          <li class="nav-item nav-category">Forms and Datas</li>
+          <li class="nav-item nav-category">Fonctionnalités</li>
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
               <i class="menu-icon mdi mdi-card-text-outline"></i>
-              <span class="menu-title">Form elements</span>
+              <span class="menu-title">Services</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="form-elements">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link" href="pages/forms/basic_elements.html">Basic Elements</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/forms/basic_elements.html">Spécialités</a></li>
+              </ul>
+            </div>
+            <div class="collapse" id="form-elements">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"><a class="nav-link" href="pages/forms/basic_elementes.html">Spécialistes</a></li>
               </ul>
             </div>
           </li>
@@ -420,17 +425,17 @@
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
               <i class="menu-icon mdi mdi-table"></i>
-              <span class="menu-title">consultations</span>
+              <span class="menu-title">Consultations</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="tables">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="basic-table.php">Listes des consultations</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/tables/basic-table.php">Listes des consultations</a></li>
               </ul>
             </div>
             <div class="collapse" id="tables">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="basic-table-suivi.php">Suivi des consultations</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/tables/basic-table.php">Suivi des consultations</a></li>
               </ul>
             </div>
           </li>
@@ -446,7 +451,7 @@
               </ul>
             </div>
           </li> -->
-          <li class="nav-item nav-category">pages</li>
+          <!-- <li class="nav-item nav-category">pages</li>
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
               <i class="menu-icon mdi mdi-account-circle-outline"></i>
@@ -458,7 +463,7 @@
                 <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li>
               </ul>
             </div>
-          </li>
+          </li> -->
           <li class="nav-item nav-category">Mode d'emploi</li>
           <li class="nav-item">
             <a class="nav-link" href="#">

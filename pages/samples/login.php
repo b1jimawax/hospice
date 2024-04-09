@@ -36,10 +36,10 @@
               <h6 class="fw-light">Authentifiez-vous pour continuer.</h6>
               <form class="pt-3" action="../../logintraitement.php" method="post">
                 <div class="form-group">
-                  <input type="username" class="form-control form-control-lg" id="username" name="username" placeholder="Entrez votre pseudo">
+                  <input type="username" class="form-control form-control-lg" id="username" name="username" placeholder="Entrez votre pseudo" Required>
                 </div>
                 <div class="form-group">
-                  <input type="password" class="form-control form-control-lg" id="password" name="password" placeholder="Entrez votre mot de passe">
+                  <input type="password" class="form-control form-control-lg" id="password" name="password" placeholder="Entrez votre mot de passe" Required>
                 </div>
                 <div class="mt-3">
                   <input type="submit" value="Se connecter" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" >
